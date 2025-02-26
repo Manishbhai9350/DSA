@@ -251,38 +251,50 @@
 
 // ?? Some Questions
 
-// ?? Reactangle Bounds
+        // ?? Reactangle Bounds
 
-// function Rectangle(x,y){
-        //         let area = x * y;
-        //         let parimeter = 2 * ( x + y );
-        //         return {area,parimeter}
+        // function Rectangle(x,y){
+                //         let area = x * y;
+                //         let parimeter = 2 * ( x + y );
+                //         return {area,parimeter}
+                // }
+                
+                
+                // Rectangle(5,7) { area: 35, parimeter: 24 }
+                
+        // ?? Triangle Bounds
+
+        // function Triangle(a,b,c){
+        //         const s = (a + b + c) / 2;
+        //         let RawArea = s * (s - a) * (s - b) * (s - c)
+        //         let Area = Math.sqrt(RawArea)
+
+        //         if(!Area){
+        //                 return {error:'Not A Valid Triangle'}
+        //         }
+        //         return {Perimeter:s * 2, Area}
         // }
-        
-        
-        // Rectangle(5,7) { area: 35, parimeter: 24 }
-        
-// ?? Triangle Bounds
+        // Triangle(14,15,25) { Perimeter: 54, Area: 91.78235124467012 }
+        // Triangle(4,15,25)  { error: 'Not A Valid Triangle' } 
+ 
+        // ?? Circle Bounds 
 
-// function Triangle(a,b,c){
-//         const s = (a + b + c) / 2;
-//         let RawArea = s * (s - a) * (s - b) * (s - c)
-//         let Area = Math.sqrt(RawArea)
+        function Circle(r,theta = 360){
+                let Area = Math.PI * Math.pow(r,2);
+                let Circumfarence = 2 * Math.PI * r;
+                let SectorArc = Circumfarence * theta / 360
+                let SectorArea = Area * theta / 360
+                return {Area,Circumfarence,SectorArc,SectorArea}
+        }
+        console.log(Circle(5,270))
 
-//         if(!Area){
-//                 return {error:'Not A Valid Triangle'}
-//         }
-//         return {Perimeter:s * 2, Area}
-// }
-// Triangle(14,15,25) { Perimeter: 54, Area: 91.78235124467012 }
-// Triangle(4,15,25)  { error: 'Not A Valid Triangle' } 
 
-// ?? OTP Generation
+        // ?? OTP Generation
 
-// function OTP(dig){
-//         let Mul =  Math.floor(Number(new Array(dig).fill(9).join('')))
-//         let Base = Math.floor(Number(new Array(dig).fill(1).map((n,i) => i == 0 ? 1 : 0).join('')))
-//         const OTP = Math.floor(Base + Math.random() * (Mul - Base))
-//         return OTP
-// }
-// OTP(5) // It Will Give A Random OTP with 5 digits
+        // function OTP(dig){
+        //         let Mul =  Math.floor(Number(new Array(dig).fill(9).join('')))
+        //         let Base = Math.floor(Number(new Array(dig).fill(1).map((n,i) => i == 0 ? 1 : 0).join('')))
+        //         const OTP = Math.floor(Base + Math.random() * (Mul - Base))
+        //         return OTP
+        // }
+        // OTP(5) // It Will Give A Random OTP with 5 digits
