@@ -1,0 +1,13 @@
+{
+  "name": "conditional",
+  "version": "1.0.0",
+  "main": "condition.js",
+  "scripts": {
+    "start": "node ./condition.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": ""
+}
