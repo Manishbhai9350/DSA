@@ -4,7 +4,7 @@
 By Sheryians Coding School and series where they taught Data Structure Algorithem with js
 
 
-    let Chapters = [ 'Basics','Conditional','Loops' ]
+    let Chapters = [ 'Basics','Conditional','Loops','Array','String' ]
 
 
 # <a href='https://github.com/Manishbhai9350/DSA/blob/main/Basics.js' style='display:flex; align-items:center;color:skyblue' > 1 Basics </a>
@@ -20,3 +20,18 @@ In thins chapter I have learned about conditions and mastered my conditional log
 # <a href='https://github.com/Manishbhai9350/DSA/blob/main/Basics.js' style='display:flex; align-items:center;color:skyblue' > 3 Loops </a>
 In this chapter I have learned about loops and its concepts and solved many questions related to it like finding prime numbers and checking for prime numbers 
 <a style='color:skyblue' href='https://youtu.be/H88hkdA02tY?si=_NSIXgbHgPXpkANA' >View Tutorial</a>
+
+
+# <a href='https://github.com/Manishbhai9350/DSA/blob/main/Basics.js' style='display:flex; align-items:center;color:skyblue' > 4 Array </a>
+Learned about arrays and practices basic questions about array
+<a style='color:skyblue' href='https://youtu.be/CW3gjRgL4w4?si=8WT70axyHL6VMApV' >View Tutorial</a>
+
+
+# <a href='https://github.com/Manishbhai9350/DSA/blob/main/Basics.js' style='display:flex; align-items:center;color:skyblue' > 5 String </a>
+Learned about string and practices basic questions and methods of string
+<a style='color:skyblue' href='https://youtu.be/X8C4_oLQOzU?si=1x1x9kiFhEv-Uskv' >View Tutorial</a>
+
+
+# <a href='https://github.com/Manishbhai9350/DSA/blob/main/Basics.js' style='display:flex; align-items:center;color:skyblue' > 6 Advance Array Questions </a>
+Advance Questions about arrays 
+<a style='color:skyblue' href='https://youtu.be/AaYggzBvD4Q?si=eAmJKqc15irvhTGv' >View Tutorial</a>
